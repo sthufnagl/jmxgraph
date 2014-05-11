@@ -1,0 +1,38 @@
+/*
+ Licensed Materials - Property of IBM
+ status.css
+ © Copyright IBM Corporation 2013
+
+ U.S. Government Users Restricted Rights:  Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+ */
+
+body {
+	font-family: Arial;
+	font-size: 10pt;
+	padding: 5px;
+}
+
+
+
+.bar {
+	background-color: #CDCDCD;
+}
+
+.label {
+	text-align: center;	
+	white-space: nowrap;	
+}
+
+.labels {
+	margin-left: 28px;
+	font-size: 0.8em;
+	padding-left: 5px;
+	white-space: nowrap;
+}
+
+
+
+
+
+
+

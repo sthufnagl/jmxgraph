@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+ Licensed Materials - Property of IBM
+ status.xml
+© Copyright IBM Corporation 2013
+
+U.S. Government Users Restricted Rights:  Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp. 
+-->
+
+<Module>
+<ModulePrefs title="Graphs" height="750" scrolling="true">
+<Optional feature="com.ibm.rdm.rm.api"></Optional>	
+</ModulePrefs>
+<Content type="html">
+<![CDATA[
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	
+	<p>
+		This extension uses <a href="http://www.jolokia.org/">Jolokia</a>. For installation instruction visit this site.
+	</p>
+	
+    <button style="margin-top: 10px; margin-left: 5px;" onclick="gc();">Trigger Garbage Collection</button>
+	<h4 class="title">JMX Memory</h4>
+	<div id="memory" ></div>
+	<h4 class="title">JMX Requests</h4>
+	<div id="request" ></div>
+	<h4 class="title">JMX Threads</h4>
+	<div id="thread" ></div>
+	
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="lib/jquery-1.10.1.js"></script>
+    <script type="text/javascript" src="lib/cubism.v1.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.flot.js"></script>
+    <script type="text/javascript" src="lib/jolokia.js"></script>
+    <script type="text/javascript" src="lib/jolokia-simple.js"></script>
+    <script type="text/javascript" src="lib/json2.js"></script>
+    <script type="text/javascript" src="lib/jolokia-cubism.js"></script>
+	<script src="js/status.js"></script>
+	
+	
+	
+
+
+]]>
+</Content>
+</Module>
